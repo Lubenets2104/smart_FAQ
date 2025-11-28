@@ -1,0 +1,23 @@
+SmartTask API Guide
+
+SmartTask REST API позволяет интегрировать систему с внешними сервисами.
+
+Базовый URL: https://api.smarttask.io/v1/
+
+Аутентификация:
+Используется API ключ (Bearer Token).
+Пример: Authorization: Bearer <your_api_key>
+
+Основные эндпоинты:
+- GET /projects — список проектов
+- GET /tasks — получение задач
+- POST /tasks — создание задачи
+- PATCH /tasks/{id} — обновление задачи
+- DELETE /tasks/{id} — удаление задачи
+
+Коды ответов:
+- 200 — OK
+- 400 — Ошибка запроса
+- 401 — Неверный токен
+- 404 — Не найдено
+- 500 — Внутренняя ошибка

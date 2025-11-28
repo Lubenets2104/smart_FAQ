@@ -1,0 +1,45 @@
+# Core
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Database
+sqlalchemy==2.0.25
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# Redis
+redis==5.0.1
+
+# Vector DB
+chromadb==0.5.23
+
+# LLM
+anthropic>=0.18.0
+openai>=1.30.0
+tiktoken==0.5.2
+
+# Text processing
+langchain==0.1.4
+langchain-community==0.0.16
+langchain-core==0.1.17
+
+# Logging
+structlog==24.1.0
+
+# Metrics
+prometheus-client==0.19.0
+
+# Testing & Linting
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+httpx>=0.27.0
+ruff==0.1.14
+
+# Utils
+python-dotenv==1.0.0
+tenacity==8.2.3
